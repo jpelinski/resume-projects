@@ -13,6 +13,11 @@ variable "azs" {
   description = "List of Availability Zones"
   default = [ "eu-central-1a", "eu-central-1b", "eu-central-1c" ]
 }
+variable "region" {
+  type = string
+  description = "Region"
+  default = "eu-central-1"
+}
 variable "my_ip" {
   type = string
   description = "My IP number"
