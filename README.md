@@ -1,6 +1,10 @@
 ## This is repository of different mini-projects created for public view.
 
+---
+
 ### VPC-1
+
+---
 
 ##### Build AWS VPC using Terraform and deploy EC2 instances in private subnets.
 
