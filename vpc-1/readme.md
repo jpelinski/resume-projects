@@ -2,7 +2,7 @@
 
 ### Build AWS VPC using Terraform and deploy EC2 instances in private subnets.
 
--Created 3 EC2 instances, each in one Avability Zone
+- Created 3 EC2 instances, each in one Avability Zone
 
 - All instances are connected to their own NAT gateway in every AZ.
 
