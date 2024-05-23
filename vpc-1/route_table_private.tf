@@ -6,7 +6,7 @@ resource "aws_route_table" "rt_private" {
         nat_gateway_id = element(aws_nat_gateway.natgw[*].id, count.index)
     }
     tags = {
-        Name = "Route table for private subnet ${count.index + 1}"
+        Name = "Route table for private subnet ${count.index}"
     }
 }
 resource "aws_route_table_association" "rt_private_association" {
