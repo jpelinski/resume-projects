@@ -40,10 +40,11 @@ Then type keyword you are looking for. For example "terraform", after that you w
 
 ### Explanation
 
-> After writing your keyword, app will check if cache file already exists.
->
-> > (TRUE) If it exists, it will check if was created more than 10 seconds ago.
-> >
-> > > (TRUE) More than 10 seconds: it will make API call.
-> > > (FALSE) Less than 10 seconds: it will serve data from cache file
-> > > (FALSE) If file does not exists, it will make API call, and save JSON data to cache file.
+After writing your keyword, app will check if cache file already exists.
+
+- (TRUE) If it exists, it will check if was created more than 10 seconds ago.
+
+  - (TRUE) More than 10 seconds: it will make API call.
+  - (FALSE) Less than 10 seconds: it will serve data from cache file
+
+- (FALSE) If file does not exists, it will make API call, and save JSON data to cache file.
