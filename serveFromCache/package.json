@@ -1,0 +1,16 @@
+{
+  "name": "servefromcache",
+  "version": "1.0.0",
+  "description": "Serving data from API or cache",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jakub Pelinski",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.12.12",
+    "axios": "^1.7.2",
+    "fs": "^0.0.1-security"
+  }
+}
